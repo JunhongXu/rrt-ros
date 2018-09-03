@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/junhong/robotics_ws/src/rrt_ros/include    -std=gnu++11 -o CMakeFiles/rrt.dir/src/rrt.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/rrt.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/rrt.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/junhong/robotics_ws/src/rrt_ros/include    -std=gnu++11 -o CMakeFiles/rrt.dir/src/tree.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/tree.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/tree.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/junhong/robotics_ws/src/rrt_ros/include    -std=gnu++11 -o CMakeFiles/rrt.dir/src/node.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/node.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/node.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/home/junhong/robotics_ws/src/rrt_ros/include    -std=gnu++11 -o CMakeFiles/rrt.dir/src/main.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/main.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/main.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/home/junhong/robotics_ws/src/rrt_ros/test/../third_party -I/home/junhong/robotics_ws/src/rrt_ros/test/../include -I/usr/include/eigen3    -std=gnu++11 -o CMakeFiles/rrt_test.dir/test.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/test/test.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/test/test.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/home/junhong/robotics_ws/src/rrt_ros/test/../third_party -I/home/junhong/robotics_ws/src/rrt_ros/test/../include -I/usr/include/eigen3    -std=gnu++11 -o CMakeFiles/rrt_test.dir/__/src/rrt.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/rrt.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/rrt.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/home/junhong/robotics_ws/src/rrt_ros/test/../third_party -I/home/junhong/robotics_ws/src/rrt_ros/test/../include -I/usr/include/eigen3    -std=gnu++11 -o CMakeFiles/rrt_test.dir/__/src/tree.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/tree.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/tree.cpp"
+},
+{
+  "directory": "/home/junhong/robotics_ws/build/rrt_ros/test",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rrt_ros\\\" -I/home/junhong/robotics_ws/src/rrt_ros/test/../third_party -I/home/junhong/robotics_ws/src/rrt_ros/test/../include -I/usr/include/eigen3    -std=gnu++11 -o CMakeFiles/rrt_test.dir/__/src/node.cpp.o -c /home/junhong/robotics_ws/src/rrt_ros/src/node.cpp",
+  "file": "/home/junhong/robotics_ws/src/rrt_ros/src/node.cpp"
+}
+]

@@ -42,6 +42,17 @@ TEST_CASE("Test RRT") {
         rrt.calc_step(nearest_node, &node_one);
         REQUIRE(rrt.tree.node_list[1]->parent == &root_node);
 
+        Node node_two = Node(Vector2d(-1, 1));
+        nearest_node = rrt.find_nearest_node(&node_two);
+        rrt.calc_step(nearest_node, &node_two);
+
+        Node node_three = Node(Vector2d(2, -1));
+        nearest_node = rrt.find_nearest_node(&node_three);
+        rrt.calc_step(nearest_node, &node_three);
+
+        Node node_four = Node(Vector2d(-4, -1));
+        nearest_node = rrt.find_nearest_node(&node_four);
+        rrt.calc_step(nearest_node, &node_four);
         // sample another node [0.81984, 4.15006]
        /* Node node_two = rrt.random_sample();*/
         //nearest_node = rrt.find_nearest_node(&node_two);
@@ -58,6 +69,5 @@ TEST_CASE("Test RRT") {
         std::cout<<rrt.tree<<std::endl;
 
     }
-
 
 }

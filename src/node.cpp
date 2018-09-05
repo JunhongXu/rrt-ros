@@ -1,5 +1,5 @@
 #include "node.h"
-
+#include <iostream>
 
 Node::Node(Vector2d node_pos){
     this->node_pos = node_pos;

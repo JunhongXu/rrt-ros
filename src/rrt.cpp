@@ -15,6 +15,18 @@ RRT::RRT(double growth_param, Node &root_node, int map_height, int map_width, Ma
     this->growth_param = growth_param;
 }
 
+RRT::RRT(double growth_param, Node &root_node, int map_height, int map_width, vector<Obstacle*> obstacle_list)
+:tree(root_node), obstacle_list(obstacle_list)
+{
+
+    this->map = map;
+    // this can be configured so that the configuration space
+    // is larger than 2.
+    this->map_height = map_height;
+    this->map_width = map_width;
+    this->growth_param = growth_param;
+}
+
 Node* RRT::find_nearest_node(Node *node){
     // returning a pointer to a node that
     // is the nearest node to a random configuration

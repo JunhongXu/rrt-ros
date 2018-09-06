@@ -53,21 +53,25 @@ TEST_CASE("Test RRT") {
         Node node_four = Node(Vector2d(-4, -1));
         nearest_node = rrt.find_nearest_node(&node_four);
         rrt.calc_step(nearest_node, &node_four);
-        // sample another node [0.81984, 4.15006]
-       /* Node node_two = rrt.random_sample();*/
-        //nearest_node = rrt.find_nearest_node(&node_two);
-        //REQUIRE(nearest_node == rrt.tree.node_list[1]);
-
-        //rrt.tree.add_node(&node_two, nearest_node);
-
-        //// sample another node [4.44474, 0.384973]
-        //Node node_three = rrt.random_sample();
-        //nearest_node = rrt.find_nearest_node(&node_three);
-        //rrt.calc_step(nearest_node, &node_three);
-        /*REQUIRE(rrt.tree.node_list[1] == nearest_node);*/
-
         std::cout<<rrt.tree<<std::endl;
+    }
 
+    SECTION("Test obstacle"){
+        Node node(Vector2d(1, 1));
+        Obstacle obs1("cyliner", 1, 2, Vector2d(0.5, 0.5));
+        REQUIRE(obs1.calc_collision_with_node(node));
+
+        Obstacle obs2("cyliner", 2, 2, Vector2d(-0.1, -0.1));
+        REQUIRE(obs2.calc_collision_with_node(node));
+
+        Obstacle obs3("cyliner", 0.5, 2, Vector2d(0.4, 0.4));
+        REQUIRE(!obs3.calc_collision_with_node(node));
+
+        Obstacle obs4("cube", 1, 2, Vector2d(0.5, 0.5));
+        REQUIRE(obs4.calc_collision_with_node(node));
+
+        Obstacle obs5("cube", 1, 2, Vector2d(1.5, 2.5));
+        REQUIRE(!obs5.calc_collision_with_node(node));
     }
 
 }

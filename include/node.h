@@ -7,7 +7,7 @@ using namespace Eigen;
 class Node{
     public:
         // variables
-        Vector2d node_pos;
+        VectorXd node_pos;
         Node     *parent;
 
         // functions

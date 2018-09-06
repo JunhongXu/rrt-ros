@@ -76,7 +76,7 @@ Node RRT::random_sample(){
     Vector2d node_pos;
     Vector2d range(this->map_width, this->map_height);
     node_pos.setRandom();
-    node_pos = (node_pos + Vector2d::Ones())/2;
+    //node_pos = (node_pos + Vector2d::Ones())/2;
     node_pos = node_pos.cwiseProduct(range);
     Node node(node_pos);
     //std::cout<<tree.node_list[0]->node_pos<<" Node" << std::endl;

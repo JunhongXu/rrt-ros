@@ -7,6 +7,9 @@ add_executable(rrt_test test.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/../include/tree.h
     ${CMAKE_CURRENT_SOURCE_DIR}/../include/node.h
     ${CMAKE_CURRENT_SOURCE_DIR}/../src/rrt.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/../src/obstacle.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/../include/obstacle.h
+    
     ${CMAKE_CURRENT_SOURCE_DIR}/../src/tree.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/../src/node.cpp
     )

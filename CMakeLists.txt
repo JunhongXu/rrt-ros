@@ -13,10 +13,12 @@ set(SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/include/rrt.h
     ${CMAKE_CURRENT_SOURCE_DIR}/include/tree.h
     ${CMAKE_CURRENT_SOURCE_DIR}/include/node.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/obstacle.h
     ${CMAKE_CURRENT_SOURCE_DIR}/src/rrt.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/tree.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/node.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/obstacle.cpp
     )
 
 find_package(catkin REQUIRED COMPONENTS roscpp std_msgs)

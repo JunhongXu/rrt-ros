@@ -20,7 +20,7 @@ std::ostream& operator<<(std::ostream &os, Tree &tree){
         Node *parent = node->parent;
         ss << node->node_pos;
         while(parent != nullptr){
-            Vector2d parent_pos = parent->node_pos;
+            auto parent_pos = parent->node_pos;
             ss << "->" << parent_pos;
             parent = parent->parent;
         }

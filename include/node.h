@@ -7,11 +7,11 @@ using namespace Eigen;
 class Node{
     public:
         // variables
-        VectorXd node_pos;
-        Node     *parent;
+        Vector3d node_pos;
+        Node     *parent = nullptr;
 
         // functions
-        Node(Vector2d node_pos);
+        Node(Vector3d node_pos);
         Node();
         double calc_distance(Node &node);
 };
